@@ -15,7 +15,7 @@ function clickButton() {
 
     if (max >= min) {
         console.log("valor correto")
-        number.style.color = "green"
+        number.style.color = "#a486b0"
     } else {
         number.innerHTML = "ERRO!! O valor MÍNIMO tem que ser MENOR que o valor MÁXIMO "
         number.style.color = "red"
