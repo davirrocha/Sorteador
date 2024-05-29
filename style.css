@@ -8,6 +8,12 @@
 
 body {
     background-color: #151320;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
 }
 
 main {
@@ -15,14 +21,14 @@ main {
     height: 450px;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin:  0 auto;
     background-color: #5d479a;
     border-radius: 15px;
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     margin: 0 auto;
     display: block;
 }
